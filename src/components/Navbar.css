@@ -1,0 +1,71 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+.Navbar-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+}
+.Navbar-pos {
+    font-size: 1.4rem;
+    font-family: 'Futura PT', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+.Navbar-pos:hover {
+    background-color: #dbd9d9;
+
+}
+.Navbar-pos h1{
+    font-size: 1.4rem;
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 400;
+}
+.Navbar-pos-logo {
+    font-size: 1.4rem;
+    font-family: 'Futura PT', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.Navbar-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+.Navbar-positions {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    width: 50%;
+    justify-content: flex-end;
+}
+.Navbar-logos {
+    display: flex;
+    width: 50%;
+    height: 90px;
+}
+.Navbar-pos1 {
+    font-size: 1.4rem;
+    font-family: 'Futura PT', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+}
+.Navbar-pos1 h1{
+    font-size: 1.4rem;
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 400;
+}

@@ -53,21 +53,64 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='services-container'>
-        <div className='services-title'><h2>Услуги</h2></div>
-        <div className='services-positions-first'>
-          <div className='services-pos'><img src={logo}></img><h1>Расчет стоимости дома</h1></div>
-          <div className='services-pos'><img src={logo}></img><h1>Проектирование</h1></div>
-          <div className='services-pos'><img src={logo}></img><h1>Дизайн</h1></div>
-        </div>
-        <div className='services-positions-second'>
-          <div className='services-pos'><img src={logo}></img><h1>Инженерные коммуникации</h1></div>
-          <div className='services-pos'><img src={logo}></img><h1>Электрика</h1></div>
-          <div className='services-pos'><img src={logo}></img><h1>Строительство дома
-"под ключ"</h1></div>
-        </div>
-      </div>
+      
+      <section id='section-first'>
+  <h3 className='h3-title'>Наши услуги</h3>
+  <div class="services-grid">
+    <div class="service service1">
+      <i class="ti-bar-chart"></i>
+      <h4>Расчет стоимости дома</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
     </div>
+
+    <div class="service service2">
+      <i class="ti-light-bulb"></i>
+      <h4>Проектирование</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+    </div>
+
+    <div class="service service3">
+      <i class="ti-money"></i>
+      <h4>Дизайн</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+    </div>
+    
+  </div>
+</section>
+<section id='section-serv'>
+  <div class="services-grid">
+    <div class="service service1">
+      <i class="ti-bar-chart"></i>
+      <h4>Инженерные коммуникации</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+    </div>
+
+    <div class="service service2">
+      <i class="ti-light-bulb"></i>
+      <h4>Электрика</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+    </div>
+
+    <div class="service service3">
+      <i class="ti-money"></i>
+      <h4>Строительство дома
+"под ключ"</h4>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+    </div>
+  </div>
+</section>
+  <footer className="footer">
+		<div className="footer-1"><h1>г. Москва, Карамышевская набережная, 44</h1></div>
+		<div className="footer-2"><h1 class="k13">+74957248687</h1></div>
+	</footer>
+    </div>
+    
     
   );
 }
